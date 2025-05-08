@@ -1,0 +1,6 @@
+full_name=str(input("Enter your full name:"))
+y=full_name.strip()
+x=y.split()
+print("Your first name in lower case is :",x[0].lower())
+print("Your middle name in upper case is :",x[1].upper())
+print("Your last name in title case is :",x[2].title())
