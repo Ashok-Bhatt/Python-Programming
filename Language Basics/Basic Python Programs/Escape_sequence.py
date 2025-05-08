@@ -1,0 +1,5 @@
+print('It is a good way in it\'s own expects.')
+print("My name is Ashok Bhatt.")
+print("My name is Ashok\b Bhatt.")
+print("my name is Ashok \nBhatt.")
+print("My name is Ashok\t Bhatt.")

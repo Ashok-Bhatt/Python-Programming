@@ -1,0 +1,5 @@
+data = input("Enter data to be appended: ")
+file=open("./mytext.txt", "a")
+file.write(data)
+file=open("./mytext.txt", "r")
+print(file.read())

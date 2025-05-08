@@ -1,0 +1,5 @@
+print("Ashok and Bhatt:","Ashok" and "Bhatt")
+print("0 and 'Ashok':",0 and "Ashok")
+print("Ashok or Bhatt:","Ashok" or "Bhatt")
+print("0 or 'Ashok':",0 or "Ashok")
+print("not 0:",not 0)

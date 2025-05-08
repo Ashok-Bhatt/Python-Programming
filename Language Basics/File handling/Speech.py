@@ -1,0 +1,8 @@
+file=open("./mytext.txt", "r")
+contents = file.read()
+contents = contents.title()
+file=open("./mytext.txt", "w")
+file.write(contents)
+file=open("./mytext.txt", "r")
+print(file.read())
+file.close()
