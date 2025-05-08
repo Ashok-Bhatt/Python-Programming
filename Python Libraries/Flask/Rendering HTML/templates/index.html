@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML</title>
+</head>
+<body>
+    <h1>{{emp_name}}</h1>
+    <p>SDE-2 at Amazon, India</p>
+    {% for i in range(1,11) %}
+        {% if i%2==0 %}
+            <p>{{i}} is even</p>
+        {% else %}
+        <p>{{i}} is odd</p>
+        {% endif %}
+    {% endfor %}
+</body>
+</html>
