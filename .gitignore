@@ -1,0 +1,17 @@
+
+# Excluding some file formats
+**/*.csv
+**/*.txt
+**/*.jpg
+**/*.png
+**/*.jpeg
+College Assignments/Assignment 3/Lab Exercise - Unit 4.pdf
+College Assignments/Assignment 3 Additionals/*.dat
+College Assignments/Assignment 3 Additionals/*.DAT
+College Assignments/Assignment 3 Additionals/*.itm
+College Assignments/Assignment 3 Additionals/*.bin
+
+# Excluding some folder structures
+**/__pycache__
+**/Tests
+**/.vscode
